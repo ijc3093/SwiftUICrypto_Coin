@@ -19,7 +19,7 @@ class HomeViewModel: ObservableObject {
         
     private let coinDataService = CoinDataService()
     private let marketDataService = MarketDataService()
-    private let portfolioDataService = PortfolioDataService()
+    private let portfolioDataService = PortfolioDataService_DB()
     private var cancellables = Set<AnyCancellable>()
     
     enum SortOption {

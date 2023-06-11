@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-class PortfolioDataService {
+class PortfolioDataService_DB {
     
     private let container: NSPersistentContainer
     private let containerName: String = "PortfolioContainer_DB" // This is from DB name in CoreData
